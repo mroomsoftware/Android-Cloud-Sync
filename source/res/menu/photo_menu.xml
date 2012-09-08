@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/submenu"
+        android:title="Upload picture"
+        android:icon="@drawable/cp_up">
+        <menu>
+            <item
+                android:id="@+id/gallery"
+                android:title="Photo Gallery"/>
+            <item
+                android:id="@+id/capture"
+                android:title="Take a picture"/>
+        </menu>
+    </item>
+    
+</menu>

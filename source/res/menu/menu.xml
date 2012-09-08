@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/myaccount"
+        android:title="My Account"
+        android:icon="@drawable/cp_home"/>
+    
+    <item 
+        android:id="@+id/photo"
+        android:title="Photos"
+        android:icon="@drawable/cp_photos"/>
+    
+    <item 
+        android:id="@+id/voice"
+        android:title="Voice Memos"
+        android:icon="@drawable/cp_voice"/>
+    
+    <item 
+        android:id="@+id/note"
+        android:title="Notes"
+        android:icon="@drawable/cp_notes"/>
+    
+    <item
+        android:id="@+id/submenu"
+        android:title="Share on"
+        android:icon="@drawable/cp_share">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:title="Facebook"/>
+            <item
+                android:id="@+id/twitter"
+                android:title="Twitter"/>
+        </menu>
+    </item>
+    
+    <item 
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/cp_exit"/>
+
+</menu>
